@@ -1,0 +1,4 @@
+---
+- name: Update Postfix credentials PostMap
+  command: /usr/sbin/postmap /etc/postfix/sasl_passwd
+  notify: restart postfix

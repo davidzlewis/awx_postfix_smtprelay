@@ -1,0 +1,6 @@
+---
+relayhost: "smtp.example.com"
+relayport: "587"
+relayuser: "username"
+relaypass: "superlongandsecretpassword"
+mynetworks: "127.0.0.0/8 192.168.1.0/24"
